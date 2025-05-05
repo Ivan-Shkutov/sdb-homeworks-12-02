@@ -45,14 +45,15 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ### apt-get install mysql-server 
 
 
+### 1.2.
 
+Заходим в консоль базы данных под root:
 
+### mysql -u root -p
 
-Заходим в консоль базы данных под root
-mysql -u root -p
-Создаем учётную запись sys_temp
+Создаем учётную запись sys_temp:
 
-CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password'; 
+### CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password'; 
 
 
 
