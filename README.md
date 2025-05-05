@@ -34,15 +34,15 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ### 1.1
 
-#### apt-get install gnupg
+### apt-get install gnupg
 
 Переходим на сайт https://dev.mysql.com и выбераем пакет для установки mysql:
 
-#### mysql –version
+### mysql –version
 
 Установим MySQL сервер:
 
-#### apt-get install mysql-server 
+### apt-get install mysql-server 
 
 
 
