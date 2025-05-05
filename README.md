@@ -32,7 +32,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ---
 
-### 1.1
+### 1.1.
 
 ### apt-get install gnupg
 
