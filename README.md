@@ -38,7 +38,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 Переходим на сайт https://dev.mysql.com и выбераем пакет для установки mysql:
 
-### mysql –version
+### mysql --version
 
 Установим MySQL сервер:
 
