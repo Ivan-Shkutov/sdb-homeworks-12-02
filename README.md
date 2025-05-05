@@ -56,17 +56,18 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ### CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password'; 
 
 
+### 1.3.
+
+Выполняем запрос на получение списка пользователей в базе данных:
+
+### SELECT user FROM mysql.user;
 
 
-Выполняем запрос на получение списка пользователей в базе данных
+### 1.4.
 
-SELECT user FROM mysql.user;
+Даем все права для пользователя sys_temp:
 
-
-
-
-Даем все права для пользователя sys_temp
-GRANT ALL PRIVILEGES ON * . * TO ‘sys_temp’@’localhost’ WITH GRANT OPTION;
+### GRANT ALL PRIVILEGES ON * . * TO ‘sys_temp’@’localhost’ WITH GRANT OPTION;
 
 
 
