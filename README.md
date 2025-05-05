@@ -20,7 +20,7 @@
 
 Для смены типа аутентификации с sha2 используйте запрос:
 
-ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
 ### 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
@@ -77,8 +77,52 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ### SHOW GRANTS FOR 'sys_temp'@'localhhost';
 
 
+### 1.6.
+
+Переподключиться к базе данных от имени sys_temp. Для смены типа аутентификации с sha2 указываем:
+
+### ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+Проверяем всех пользователей, котрые могут подключиться к базе:
+
+### SELECT user,host from mysql.user;
+
+Выполняем запрос от какого пользователя сейчас идет сеанс работы с базой:
+
+### SELECT CURRENT_USER();
 
 
+### 1.6.
+
+По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачиваем дамп базы данных:
+
+### wget https://downloads.mysql.com/docs/sakila-db.zip
+
+
+### 1.7.
+
+Восстанавливаем дампы в базу данных:
+
+### source /home/Downloads/sakila-db/sakila-schema.sql
+
+### source /home/Downloads/sakila-db/sakila-data.sql
+
+
+### 1.8.
+
+Выводим в командной строке все загруженные таблицы из базы данных:
+
+### SHOW FULL TABLES;
+
+Устанавливаем DBeaver и в IDE формируем ER-диаграмму получившейся базы данных:
+
+### apt policy dbeaver-ce
+
+Выбераем необходимую базу данных из списка. В нашем случае MySQL и выводим диаграммы скаченной базы данных:
+
+### sakila
+
+### sys
 
 
 ---
