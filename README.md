@@ -70,6 +70,13 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ### GRANT ALL PRIVILEGES ON * . * TO ‘sys_temp’@’localhost’ WITH GRANT OPTION;
 
 
+### 1.5.
+
+Выполните запрос на получение списка прав для пользователя sys_temp
+
+### SHOW GRANTS FOR 'sys_temp'@'localhhost';
+
+
 
 
 
