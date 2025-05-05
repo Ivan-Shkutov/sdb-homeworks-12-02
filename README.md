@@ -172,6 +172,7 @@ customer         | customer_id
 
 ---
 
+![18](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/18.jpg).
 
 
 ---
