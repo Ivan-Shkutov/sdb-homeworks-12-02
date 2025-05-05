@@ -47,6 +47,8 @@ ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ![1](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/1.jpg).
 
+![2](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/2.jpg).
+
 
 ### 1.2.
 
@@ -58,12 +60,16 @@ ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ### CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password'; 
 
+![3](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/3.jpg).
+
 
 ### 1.3.
 
 Выполняем запрос на получение списка пользователей в базе данных:
 
 ### SELECT user FROM mysql.user;
+
+![4](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/4.jpg).
 
 
 ### 1.4.
@@ -73,11 +79,14 @@ ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ### GRANT ALL PRIVILEGES ON * . * TO ‘sys_temp’@’localhost’ WITH GRANT OPTION;
 
 
+
 ### 1.5.
 
 Выполните запрос на получение списка прав для пользователя sys_temp:
 
 ### SHOW GRANTS FOR 'sys_temp'@'localhhost';
+
+![5](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/5.jpg).
 
 
 ### 1.6.
@@ -94,12 +103,16 @@ ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ### SELECT CURRENT_USER();
 
+![6](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/6.jpg).
+
 
 ### 1.6.
 
 По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачиваем дамп базы данных:
 
 ### wget https://downloads.mysql.com/docs/sakila-db.zip
+
+![7](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/7.jpg).
 
 
 ### 1.7.
@@ -127,6 +140,25 @@ ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ### sys
 
+![8](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/8.jpg).
+
+![9](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/9.jpg).
+
+![10](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/10.jpg).
+
+![11](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/11.jpg).
+
+![12](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/12.jpg).
+
+![13](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/13.jpg).
+
+![14](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/14.jpg).
+
+![15](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/15.jpg).
+
+![16](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/16.jpg).
+
+![17](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/17.jpg).
 
 ---
 
