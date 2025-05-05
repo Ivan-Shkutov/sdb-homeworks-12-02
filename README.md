@@ -45,6 +45,9 @@ ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ### apt-get install mysql-server 
 
 
+![1](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/1.jpg).
+
+
 ### 1.2.
 
 Заходим в консоль базы данных под root:
