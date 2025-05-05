@@ -32,6 +32,43 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ---
 
+### 1.1
+
+#### apt-get install gnupg
+
+Переходим на сайт https://dev.mysql.com и выбераем пакет для установки mysql:
+
+#### mysql –version
+
+Установим MySQL сервер:
+
+#### apt-get install mysql-server 
+
+
+
+
+
+Заходим в консоль базы данных под root
+mysql -u root -p
+Создаем учётную запись sys_temp
+
+CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password'; 
+
+
+
+
+Выполняем запрос на получение списка пользователей в базе данных
+
+SELECT user FROM mysql.user;
+
+
+
+
+Даем все права для пользователя sys_temp
+GRANT ALL PRIVILEGES ON * . * TO ‘sys_temp’@’localhost’ WITH GRANT OPTION;
+
+
+
 
 
 
