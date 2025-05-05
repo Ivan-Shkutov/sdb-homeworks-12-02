@@ -156,9 +156,6 @@ ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ![15](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/15.jpg).
 
-![16](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/16.jpg).
-
-![17](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/17.jpg).
 
 ---
 
@@ -172,7 +169,10 @@ customer         | customer_id
 
 ---
 
-![18](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/18.png).
+![16](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/16.jpg).
 
+![17](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/17.jpg).
+
+![18](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/18.png).
 
 ---
