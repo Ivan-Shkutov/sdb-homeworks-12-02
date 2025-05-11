@@ -192,7 +192,7 @@ customer         | customer_id
 ---
 
 
-![31](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/31.png).
+![31](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/31.jpg).
 
 
 ### mysql> REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'sys_temp'@'localhost';
