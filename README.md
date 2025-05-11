@@ -199,11 +199,11 @@ customer         | customer_id
 
 ### mysql> SHOW GRANTS FOR 'sys_temp'@'localhost';
 
-### mysql> GRANT INSERT, UPDATE, DELETE ON ` sakila`.* TO 'sys_temp'@'localhost';
+### mysql> GRANT INSERT, UPDATE, DELETE ON ` sakila `.* TO 'sys_temp'@'localhost';
 
 ### mysql> SHOW GRANTS FOR 'sys_temp'@'localhost';
 
-### mysql> REVOKE INSERT, UPDATE, DELETE ON ` sakila`.* FROM 'sys_temp'@'localhost';
+### mysql> REVOKE INSERT, UPDATE, DELETE ON ` sakila `.* FROM 'sys_temp'@'localhost';
 
 ### mysql> SHOW GRANTS FOR 'sys_temp'@'localhost';
 
