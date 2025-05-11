@@ -176,3 +176,49 @@ customer         | customer_id
 ![19](https://github.com/Ivan-Shkutov/sdb-homeworks-12-02/blob/main/img/19.png).
 
 ---
+
+## Дополнительные задания (со звёздочкой*)
+
+Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
+
+## Задание 3*
+
+### 3.1. Уберите у пользователя sys_temp права на внесение, изменение и удаление данных из базы sakila.
+
+### 3.2. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+
+Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
+
+---
+
+
+
+
+
+### mysql> REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'sys_temp'@'localhost';
+
+### mysql> SHOW GRANTS FOR 'sys_temp'@'localhost';
+
+### mysql> GRANT INSERT, UPDATE, DELETE ON `sakila`.* TO 'sys_temp'@'localhost';
+
+### mysql> SHOW GRANTS FOR 'sys_temp'@'localhost';
+
+### mysql> REVOKE INSERT, UPDATE, DELETE ON `sakila`.* FROM 'sys_temp'@'localhost';
+
+### mysql> SHOW GRANTS FOR 'sys_temp'@'localhost';
+
+
+Команда GRANT предоставляет пользователям или ролям определённые привилегии на объекты базы данных.
+
+Команда REVOKE отзывает ранее предоставленные привилегии у пользователей или ролей.
+
+### Синтаксис предоставления привилегий для таблицы в MySQL:
+
+GRANT privileges ON object TO user;
+
+### Синтаксис отмены привилегий на таблицу в MySQL:
+
+REVOKE privileges ON object FROM user;
+
+---
+
